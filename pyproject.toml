@@ -1,0 +1,14 @@
+[project]
+name = "ainano-domain"
+version = "0.0.1"
+description = "Reference implementation and tools for the Ainano private domain and mesh"
+authors = [ { name = "ermund" } ]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.dependencies]
+aiohttp = "^3.8"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
